@@ -52,7 +52,7 @@ export default function Admin() {
 
   return (
     <>
-      <div className="flex justify-center items-center h-modal h-full my-16">
+      <div className="flex justify-center items-center h-modal h-full my-20">
         <div className="shadow-2xl px-4 w-full rounded max-w-xl h-auto bg-white dark:bg-gray-800 py-4">
           <p className="flex justify-center text-xl font-bold text-orange-500 mt-4"><u>Admin Login</u></p>
           <div className="mb-4">
