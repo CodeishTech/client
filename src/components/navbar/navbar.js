@@ -79,7 +79,7 @@ export default function Navbar(){
               <button className="block py-2 pr-4 pl-3 text-white border-b hover:bg-orange-500 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0"><FontAwesomeIcon icon={faBookReader} />&nbsp;&nbsp;Courses <FontAwesomeIcon icon={faCaretDown} /></button>
               <ul className="fixed hidden bg-white rounded divide-y divide-gray-300 border shadow dark:bg-gray-900 dark:border dark:divide-gray-600 group-hover:block" aria-labelledby="dropdown" id="dropdown">
                 <li>
-                  <Link to="/explore" className="block py-2 px-4 text-sm text-gray-700 hover:bg-orange-500 hover:text-white dark:hover:bg-orange-500 dark:text-gray-200 dark:hover:text-white">Explore All</Link>
+                  <Link to="/comingsoon" className="block py-2 px-4 text-sm text-gray-700 hover:bg-orange-500 hover:text-white dark:hover:bg-orange-500 dark:text-gray-200 dark:hover:text-white">Explore All</Link>
                 </li>
                 <li>
                   <Link to="/" className="block py-2 px-4 text-sm text-gray-700 hover:bg-orange-500 hover:text-white dark:hover:bg-orange-500 dark:text-gray-200 dark:hover:text-white">Data Structures & Algorithms</Link>
@@ -114,8 +114,16 @@ export default function Navbar(){
                 </li>
               </ul>
             </li>
-            <li>
-              <a href="/" className="block py-2 pr-4 pl-3 text-white border-b hover:bg-orange-500 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0"><FontAwesomeIcon className="mr-0.5" icon={faGlobe} />&nbsp;Blogs</a>
+            <li className="relative group">
+              <button className="block py-2 pr-4 pl-3 text-white border-b hover:bg-orange-500 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0"><FontAwesomeIcon className="mr-0.5" icon={faGlobe} />&nbsp;Articles <FontAwesomeIcon icon={faCaretDown} /></button>
+              <ul className="fixed hidden bg-white rounded divide-y divide-gray-300 border shadow dark:bg-gray-900 dark:border dark:divide-gray-600 group-hover:block" aria-labelledby="dropdown" id="dropdown">
+                <li>
+                  <Link to="/allarticles/Contest_Solutions" className="block py-2 px-4 text-sm text-gray-700 hover:bg-orange-500 hover:text-white dark:hover:bg-orange-500 dark:text-gray-200 dark:hover:text-white">Contest Solutions</Link>
+                </li>
+                <li>
+                  <Link to="/allarticles/Problem_Solutions" className="block py-2 px-4 text-sm text-gray-700 hover:bg-orange-500 hover:text-white dark:hover:bg-orange-500 dark:text-gray-200 dark:hover:text-white">Problem Solutions</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

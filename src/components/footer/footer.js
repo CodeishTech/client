@@ -19,7 +19,7 @@ export default function Footer(){
             </center>
             <div className="flex flex-col mt-6">
               <a href="https://www.youtube.com/channel/UC4Atex7DLs0sDJ1Drj7kAEA" target="_blank" rel="noreferrer"><button className={outlinedButton+" w-full"}> <FontAwesomeIcon icon={faVideo} />&nbsp; Video Lectures</button></a>
-              <Link to="/explore"><button className={containedButton+" w-full mt-4"}>Explore Courses &nbsp;<FontAwesomeIcon icon={faArrowRight} /></button></Link>
+              <Link to="/comingsoon"><button className={containedButton+" w-full mt-4"}>Explore Courses &nbsp;<FontAwesomeIcon icon={faArrowRight} /></button></Link>
             </div>
           </div>
           <div className="w-full md:w-1/4 p-2 md:p-8 mt-4 md:mt-0">

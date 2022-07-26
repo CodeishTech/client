@@ -12,6 +12,7 @@ import Explore from "../components/course/explore";
 import Showarticals from "../components/article/showArticle";
 import ComingSoon from "../components/coming_soon/coming_soon";
 // import Admin from "../components/admin/admin";
+import AllArticles from "../components/articles/all_articles";
 
 export default function Routing() {
   return (
@@ -29,6 +30,7 @@ export default function Routing() {
         <Route path="/dashboard/editarticle/:id" exact element={<EditArticle/>} /> */}
         <Route path="/explore/showarticals/:subject" exact element={<Showarticals/>} />
         <Route path="/comingsoon" exact element={<ComingSoon/>} />
+        <Route path="/allarticles/:cat" exact element={<AllArticles/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

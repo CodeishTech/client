@@ -24,7 +24,6 @@ export default function Home() {
                 <a href="https://www.instagram.com/codeish.tech/" target="_blank" rel="noreferrer"><button className="p-1 md:p-1.5 border rounded border-gray-400 hover:border-orange-500 hover:border-dashed"><FontAwesomeIcon className="text-orange-600 text-2xl" icon={faInstagram} /></button></a>
                 <a href="https://twitter.com/CodeishTech" target="_blank" rel="noreferrer"><button className="p-1 md:p-1.5 border rounded border-gray-400 hover:border-orange-500 hover:border-dashed"><FontAwesomeIcon className="text-blue-500 text-2xl" icon={faTwitter} /></button></a>
               </div>
-              <Link to="/explore">
                 <div className="flex justify-center sm:justify-start mt-6">
                   <button className="shadow border rounded-l-lg py-2 px-3 text-orange-500 bg-white">
                     <FontAwesomeIcon icon={faSearch} />
@@ -34,7 +33,6 @@ export default function Home() {
                     <FontAwesomeIcon icon={faArrowRight} />
                   </button>
                 </div>
-              </Link>
             </div>
           </div>
         </div>
@@ -62,7 +60,7 @@ export default function Home() {
               <p className="font-medium text-gray-600 dark:text-gray-300 mt-2 text-base md:text-xl flex justify-center md:justify-start">Web Development and Mobile Development</p>
               <div className="flex justify-center sm:justify-start mt-6 space-x-1 md:space-x-2">
                 <a href="https://www.youtube.com/channel/UC4Atex7DLs0sDJ1Drj7kAEA" target="_blank" rel="noreferrer"><button className={outlinedButton}><FontAwesomeIcon icon={faVideo} /> Video Lectures</button></a>
-                <Link to="/explore"><button className={containedButton}>Explore Courses <FontAwesomeIcon icon={faArrowRight} /></button></Link>
+                <Link to="/comingsoon"><button className={containedButton}>Explore Courses <FontAwesomeIcon icon={faArrowRight} /></button></Link>
               </div>
             </div>
           </div>
